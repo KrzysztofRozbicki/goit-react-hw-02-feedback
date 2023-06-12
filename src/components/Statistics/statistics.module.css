@@ -1,0 +1,26 @@
+.statistics {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.number {
+  font-weight: 600;
+}
+.total {
+  font-weight: 900;
+}
+
+.good {
+  color: rgb(50, 200, 50);
+}
+
+.neutral {
+  color: darkgray;
+}
+
+.bad {
+  color: rgb(200, 50, 50);
+}
