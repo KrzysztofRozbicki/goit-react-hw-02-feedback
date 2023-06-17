@@ -28,7 +28,6 @@ export class App extends Component {
   };
 
   render() {
-    console.log(!!this.countTotalFeedback());
     return (
       <Section title={'Please leave feedback'}>
         <FeedbackOptions
